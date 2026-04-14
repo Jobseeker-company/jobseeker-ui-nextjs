@@ -1,0 +1,31 @@
+import { jsx as n } from "react/jsx-runtime";
+import { cn as o } from "../../lib/utils.js";
+function r({ className: t, ...e }) {
+  return /* @__PURE__ */ n(
+    "kbd",
+    {
+      "data-slot": "kbd",
+      className: o(
+        "bg-muted text-muted-foreground pointer-events-none inline-flex h-5 w-fit min-w-5 items-center justify-center gap-1 rounded-sm px-1 font-sans text-xs font-medium select-none",
+        "[&_svg:not([class*='size-'])]:size-3",
+        "[[data-slot=tooltip-content]_&]:bg-background/20 [[data-slot=tooltip-content]_&]:text-background dark:[[data-slot=tooltip-content]_&]:bg-background/10",
+        t
+      ),
+      ...e
+    }
+  );
+}
+function d({ className: t, ...e }) {
+  return /* @__PURE__ */ n(
+    "kbd",
+    {
+      "data-slot": "kbd-group",
+      className: o("inline-flex items-center gap-1", t),
+      ...e
+    }
+  );
+}
+export {
+  r as Kbd,
+  d as KbdGroup
+};

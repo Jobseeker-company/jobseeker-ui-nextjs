@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const i=require("react/jsx-runtime"),r=require("lucide-react"),t=require("../../lib/utils.cjs");function s({className:e,...n}){return i.jsx(r.Loader2Icon,{"aria-label":"Loading",className:t.cn("size-4 animate-spin",e),role:"status",...n})}exports.Spinner=s;

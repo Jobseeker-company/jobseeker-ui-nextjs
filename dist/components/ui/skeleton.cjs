@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const n=require("react/jsx-runtime"),o=require("../../lib/utils.cjs");function s({className:e,...t}){return n.jsx("div",{className:o.cn("bg-accent animate-pulse rounded-md",e),"data-slot":"skeleton",...t})}exports.Skeleton=s;
