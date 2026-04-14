@@ -37,7 +37,6 @@
     "**/*.css"
   ],
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "commit": "pnpm cz",
     "dev": "vite",
     "build": "tsc -b && vite build",
