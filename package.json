@@ -31,6 +31,8 @@
       "require": "./dist/sonner.cjs"
     },
     "./style.css": "./dist/style.css",
+    "./colors.css": "./dist/colors.css",
+    "./color-variables.css": "./dist/color-variables.css",
     "./components/*": "./dist/components/*"
   },
   "sideEffects": [
